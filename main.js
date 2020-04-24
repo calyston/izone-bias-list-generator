@@ -10,12 +10,20 @@ sortedOption.addEventListener('click', () => {
   sorter('lower')
 })
 
-//Variables for the Options
+//Members for the Options
 const izoneMembers = [
-  { name: '1', photo: 'assets/images/wonyoung.jpg' },
-  { name: '2', photo: 'assets/images/sakura.jpg' },
-  { name: '3', photo: 'assets/images/yuri.jpg' },
-  { name: '4', photo: 'assets/images/yena.jpg' }
+  { name: 'Wonyoung', photo: 'assets/images/wonyoung.jpg' },
+  { name: 'Sakura', photo: 'assets/images/sakura.jpg' },
+  { name: 'Yuri', photo: 'assets/images/yuri.jpg' },
+  { name: 'Yena', photo: 'assets/images/yena.jpg' },
+  { name: 'Yujin', photo: 'assets/images/yujin.jpg' },
+  { name: 'Nako', photo: 'assets/images/nako.jpg' },
+  { name: 'Eunbi', photo: 'assets/images/eunbi.jpg' },
+  { name: 'Hyewon', photo: 'assets/images/hyewon.jpg' },
+  { name: 'Hitomi', photo: 'assets/images/hitomi.jpg' },
+  { name: 'Chaewon', photo: 'assets/images/chaewon.jpg' },
+  { name: 'Minju', photo: 'assets/images/minju.jpg' },
+  { name: 'Chaeyeon', photo: 'assets/images/chaeyeon.jpg' },
 ]
 
 const resultsArray = []
@@ -79,6 +87,8 @@ const sorter = (decision) => {
     } else {
       //if no more items are in the members list
       console.log('Sorting Complete: ', resultsArray)
+      newOption.style.display = 'none'
+      sortedOption.style.display = 'none'
     }
   } else {
     //if more sorting is needed
