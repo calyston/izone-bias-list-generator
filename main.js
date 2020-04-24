@@ -1,6 +1,6 @@
-const selectedOption = document.getElementById('optionA')
+const newOption = document.getElementById('optionA')
 
-selectedOption.addEventListener('click', () => {
+newOption.addEventListener('click', () => {
   console.log("you clicked A")
 })
 
@@ -23,6 +23,7 @@ const resultsArray = []
 Math.floor(Math.random() * izoneMembers.length)
 //outputs random index from the array
 
+//to display the intitial member for the results array
 if (resultsArray.length === 0) {
   const randomIndex = Math.floor(Math.random() * izoneMembers.length)
   const [initialMember] = izoneMembers.splice(randomIndex, 1)
@@ -31,3 +32,9 @@ if (resultsArray.length === 0) {
   console.log(resultsArray)
 }
 
+let [newOptionJS] = izoneMembers.splice(Math.floor(Math.random() * izoneMembers.length), 1)
+
+let sortedOptionJS = resultsArray[0]
+
+newOption.innerHTML = `<p>${newOptionJS.name}</p>`
+sortedOption.innerHTML = `<p>${sortedOptionJS.name}</p>`
