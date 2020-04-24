@@ -1,0 +1,28 @@
+body {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#logo {
+  width: 500px;
+  height: auto;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+/* @media screen and (min-width: 600px) {
+} */
+
+/* @media screen and (min-width: 1240px) {
+} */
