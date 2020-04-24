@@ -12,10 +12,10 @@ sortedOption.addEventListener('click', () => {
 
 //Variables for the Options
 const izoneMembers = [
-  { name: '1', photo: 'assets/images/wonyoung.jpeg' },
-  { name: '2', photo: 'assets/images/sakura.jpeg' },
-  { name: '3', photo: 'assets/images/yuri.jpeg' },
-  { name: '4', photo: 'assets/images/yena.jpeg' }
+  { name: '1', photo: 'assets/images/wonyoung.jpg' },
+  { name: '2', photo: 'assets/images/sakura.jpg' },
+  { name: '3', photo: 'assets/images/yuri.jpg' },
+  { name: '4', photo: 'assets/images/yena.jpg' }
 ]
 
 const resultsArray = []
@@ -36,5 +36,5 @@ let [newOptionJS] = izoneMembers.splice(Math.floor(Math.random() * izoneMembers.
 
 let sortedOptionJS = resultsArray[0]
 
-newOption.innerHTML = `<p>${newOptionJS.name}</p>`
-sortedOption.innerHTML = `<p>${sortedOptionJS.name}</p>`
+newOption.innerHTML = `<img src=${newOptionJS.photo}><p>${newOptionJS.name}</p>`
+sortedOption.innerHTML = `<img src=${sortedOptionJS.photo}><p>${sortedOptionJS.name}</p>`

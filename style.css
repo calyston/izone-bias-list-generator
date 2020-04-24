@@ -21,6 +21,16 @@ h3 {
   font-size: 20px;
 }
 
+
+#optionA img {
+  width: 300px;
+  height: auto;
+}
+
+#optionB img {
+  width: 300px;
+  height: auto;
+}
 /* @media screen and (min-width: 600px) {
 } */
 
