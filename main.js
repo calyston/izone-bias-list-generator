@@ -32,6 +32,7 @@ if (resultsArray.length === 0) {
   console.log(resultsArray)
 }
 
+//Remove a member from the IZ*One members list
 let [newOptionJS] = izoneMembers.splice(Math.floor(Math.random() * izoneMembers.length), 1)
 
 let sortedOptionJS = resultsArray[0]
@@ -54,7 +55,7 @@ const sorter = (decision) => {
         highestResultsIndex = 0
         lowestResultsIndex = 0
       } else {
-        highestResultsIndex === comparatorIndex
+        highestResultsIndex = comparatorIndex
       }
       break
 
@@ -62,4 +63,33 @@ const sorter = (decision) => {
       console.log('lower')
       lowestResultsIndex = comparatorIndex + 1
   }
+
+  //if no more sorting is needed
+  if (highestResultsIndex === lowestResultsIndex) {
+    resultsArray.splice(highestResultsIndex, 0, newOptionJS)
+    highestResultsIndex = resultsArray.length
+    lowestResultsIndex = 0
+    //finding the average in the current results list
+    comparatorIndex = Math.floor((highestResultsIndex + lowestResultsIndex) / 2)
+
+    //if more items are in the members list
+    if (izoneMembers.length > 0) {
+      [newOptionJS] = izoneMembers.splice(Math.floor(Math.random() * izoneMembers.length), 1)
+      sortedOptionJS = resultsArray[comparatorIndex]
+    } else {
+      //if no more items are in the members list
+      console.log('Sorting Complete: ', resultsArray)
+    }
+  } else {
+    //if more sorting is needed
+    comparatorIndex = Math.floor((highestResultsIndex + lowestResultsIndex) / 2)
+    sortedOptionJS = resultsArray[comparatorIndex]
+    console.log('More sorting is needed. New option:', sortedOptionJS)
+  }
+
+  newOption.innerHTML = `<img src=${newOptionJS.photo}><p>${newOptionJS.name}</p>`
+  sortedOption.innerHTML = `<img src=${sortedOptionJS.photo}><p>${sortedOptionJS.name}</p>`
+
+  console.log(resultsArray)
+
 }
