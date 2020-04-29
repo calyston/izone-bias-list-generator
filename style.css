@@ -1,5 +1,4 @@
 body {
-  width: 100%;
   font-family: 'Roboto', sans-serif;
   line-height: 1.5;
 }
@@ -26,6 +25,7 @@ h2 {
   font-size: 30px;
   font-weight: bold;
   margin: 1.5rem;
+  color: #FF64A1
 }
 
 h3 {
@@ -35,6 +35,7 @@ h3 {
 }
 
 #optionA {
+  width: 300px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -45,10 +46,12 @@ h3 {
 #optionA img {
   width: 300px;
   height: auto;
-  padding: 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 #optionB {
+  width: 300px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -59,7 +62,8 @@ h3 {
 #optionB img {
   width: 300px;
   height: auto;
-  padding: 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 p {
