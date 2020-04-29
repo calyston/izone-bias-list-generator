@@ -12,18 +12,18 @@ sortedOption.addEventListener('click', () => {
 
 //Members for the Options
 const izoneMembers = [
-  { name: 'Wonyoung', photo: 'assets/images/wonyoung.jpg' },
-  { name: 'Sakura', photo: 'assets/images/sakura.jpg' },
-  { name: 'Yuri', photo: 'assets/images/yuri.jpg' },
-  { name: 'Yena', photo: 'assets/images/yena.jpg' },
-  { name: 'Yujin', photo: 'assets/images/yujin.jpg' },
-  { name: 'Nako', photo: 'assets/images/nako.jpg' },
-  { name: 'Eunbi', photo: 'assets/images/eunbi.jpg' },
-  { name: 'Hyewon', photo: 'assets/images/hyewon.jpg' },
-  { name: 'Hitomi', photo: 'assets/images/hitomi.jpg' },
-  { name: 'Chaewon', photo: 'assets/images/chaewon.jpg' },
-  { name: 'Minju', photo: 'assets/images/minju.jpg' },
-  { name: 'Chaeyeon', photo: 'assets/images/chaeyeon.jpg' },
+  { name: 'Jang Wonyoung', photo: 'assets/images/wonyoung.jpg' },
+  { name: 'Miyawaki Sakura', photo: 'assets/images/sakura.jpg' },
+  { name: 'Jo Yuri', photo: 'assets/images/yuri.jpg' },
+  { name: 'Choi Yena', photo: 'assets/images/yena.jpg' },
+  { name: 'Ahn Yujin', photo: 'assets/images/yujin.jpg' },
+  { name: 'Yabuki Nako', photo: 'assets/images/nako.jpg' },
+  { name: 'Kwon Eunbi', photo: 'assets/images/eunbi.jpg' },
+  { name: 'Kang Hyewon', photo: 'assets/images/hyewon.jpg' },
+  { name: 'Honda Hitomi', photo: 'assets/images/hitomi.jpg' },
+  { name: 'Kim Chaewon', photo: 'assets/images/chaewon.jpg' },
+  { name: 'Kim Minju', photo: 'assets/images/minju.jpg' },
+  { name: 'Lee Chaeyeon', photo: 'assets/images/chaeyeon.jpg' },
 ]
 
 const resultsArray = []
