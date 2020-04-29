@@ -34,6 +34,17 @@ h3 {
   margin: 1.5rem;
 }
 
+p {
+  text-align: center;
+  margin: 1.5rem;
+}
+
+span {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 1.5rem;
+}
+
 .question-container {
   display: flex;
   flex-direction: column;
@@ -78,12 +89,14 @@ figure p {
   border-top-right-radius: 5px;
 }
 
-p {
-  text-align: center;
-  margin: 1.5rem;
+@media screen and (min-width: 600px) {
+  
+  .question-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
 }
-/* @media screen and (min-width: 600px) {
-} */
 
 /* @media screen and (min-width: 1240px) {
 } */
