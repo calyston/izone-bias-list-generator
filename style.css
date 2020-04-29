@@ -12,7 +12,7 @@ header {
 #logo {
   width: 400px;
   height: auto;
-  margin: 0;
+  margin: 1.5rem 0;
 }
 
 h1 {
@@ -34,13 +34,20 @@ h3 {
   margin: 1.5rem;
 }
 
+.question-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
 figure p {
   font-weight: bold;
   text-transform: uppercase;
 }
 
 #optionA {
-  width: 300px;
+  width: 250px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -49,14 +56,14 @@ figure p {
 }
 
 #optionA img {
-  width: 300px;
+  width: 250px;
   height: auto;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
 
 #optionB {
-  width: 300px;
+  width: 250px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -65,7 +72,7 @@ figure p {
 }
 
 #optionB img {
-  width: 300px;
+  width: 250px;
   height: auto;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
