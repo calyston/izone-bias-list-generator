@@ -45,7 +45,7 @@ span {
   margin: 1.5rem;
 }
 
-.question-container {
+#question-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -91,7 +91,7 @@ figure p {
 
 @media screen and (min-width: 600px) {
   
-  .question-container {
+  #question-container {
     display: flex;
     flex-direction: row;
     align-items: center;

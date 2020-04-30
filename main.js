@@ -10,6 +10,8 @@ sortedOption.addEventListener('click', () => {
   sorter('lower')
 })
 
+const resultsList = document.getElementById('results-list')
+
 //Members for the Options
 const izoneMembers = [
   { name: 'Jang Wonyoung', photo: 'assets/images/wonyoung.jpg' },
@@ -83,6 +85,11 @@ const sorter = (decision) => {
       //if no more items are in the members list
       console.log('Sorting Complete: ', resultsArray)
       document.getElementById('question-container').style.display = 'none'
+      resultsArray.map(
+        function (member) {
+          resultsList.innerHTML += `<li>${member.name}</li>`
+        }
+      )
     }
   } else {
     //if more sorting is needed
