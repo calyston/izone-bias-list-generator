@@ -28,16 +28,11 @@ const izoneMembers = [
 
 const resultsArray = []
 
-Math.floor(Math.random() * izoneMembers.length)
-//outputs random index from the array
-
 //to display the intitial member for the results array
 if (resultsArray.length === 0) {
   const randomIndex = Math.floor(Math.random() * izoneMembers.length)
   const [initialMember] = izoneMembers.splice(randomIndex, 1)
-  console.log(initialMember)
   resultsArray.push(initialMember)
-  console.log(resultsArray)
 }
 
 //Remove a member from the IZ*One members list
@@ -87,8 +82,7 @@ const sorter = (decision) => {
     } else {
       //if no more items are in the members list
       console.log('Sorting Complete: ', resultsArray)
-      newOption.style.display = 'none'
-      sortedOption.style.display = 'none'
+      document.getElementById('question-container').style.display = 'none'
     }
   } else {
     //if more sorting is needed
