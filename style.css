@@ -89,12 +89,43 @@ figure p {
   border-top-right-radius: 5px;
 }
 
+#results-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+#results-list {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  border: 5px solid #FF64A1;
+  border-radius: 10px;
+  padding: 0px;
+  padding-bottom: 1.5rem;
+}
+
+#results-list img {
+  width: 250px;
+  height: auto;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  margin-bottom: 1.5rem;
+}
+
+#results-list li {
+  margin-left: 4.5rem;
+}
+
 @media screen and (min-width: 600px) {
   
   #question-container {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
   }
 }
 
