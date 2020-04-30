@@ -85,6 +85,9 @@ const sorter = (decision) => {
       //if no more items are in the members list
       console.log('Sorting Complete: ', resultsArray)
       document.getElementById('question-container').style.display = 'none'
+
+      resultsList.innerHTML = `<img src=${resultsArray[0].photo}>`
+
       resultsArray.map(
         function (member) {
           resultsList.innerHTML += `<li>${member.name}</li>`
