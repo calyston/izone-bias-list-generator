@@ -121,7 +121,7 @@ figure p {
 
 /* FOOTER */
 footer {
-  background-color: grey;
+  background-color: #F5F0F6;
   padding: 1.5rem;
 }
 
@@ -132,10 +132,11 @@ footer ul {
 
 footer a:link {
   text-decoration: none;
+  color: #FF64A1;
 }
 
 footer a:visited {
-  color: black;
+  color: #FF64A1;
 }
 
 footer a:hover {
@@ -164,7 +165,21 @@ footer a:hover {
     align-items: center;
     justify-content: center;
   }
+
 }
 
-/* @media screen and (min-width: 1240px) {
-} */
+@media screen and (min-width: 1240px) {
+    /* FOOTER */
+    footer a:link {
+      text-decoration: none;
+      color: black;
+    }
+    
+    footer a:visited {
+      color: black;
+    }
+    
+    footer a:hover {
+      color: #FF64A1;
+    }
+}
