@@ -119,11 +119,21 @@ figure p {
   margin-left: 4.5rem;
 }
 
-.retry-button {
-  background-color: #FFFFFF;
-  border: 5px solid #FF64A1;
-  border-radius: 10px;
-  padding: 10px;
+#retry {
+  color: black;
+}
+
+#retry a:link {
+  color: black;
+  text-decoration: none;
+}
+
+#retry a:visited {
+  color: black;
+}
+
+#retry a:hover {
+  color: #FF64A1;
 }
 
 /* FOOTER */
