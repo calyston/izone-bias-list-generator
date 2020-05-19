@@ -50,6 +50,8 @@ let highestResultsIndex = 1
 let lowestResultsIndex = 0
 let comparatorIndex = 0
 
+document.getElementById('results-container').style.display = 'none'
+
 //Binary Insertion Sorter
 const sorter = (decision) => {
 
@@ -81,10 +83,13 @@ const sorter = (decision) => {
     if (izoneMembers.length > 0) {
       [newOptionJS] = izoneMembers.splice(Math.floor(Math.random() * izoneMembers.length), 1)
       sortedOptionJS = resultsArray[comparatorIndex]
+
     } else {
       //if no more items are in the members list
       console.log('Sorting Complete: ', resultsArray)
       document.getElementById('question-container').style.display = 'none'
+
+      document.getElementById('results-container').style.display = 'flex'
 
       resultsList.innerHTML = `<img src=${resultsArray[0].photo}>`
 
