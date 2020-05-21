@@ -87,6 +87,7 @@ const sorter = (decision) => {
     } else {
       //if no more items are in the members list
       console.log('Sorting Complete: ', resultsArray)
+      document.getElementById('how-to').style.display = 'none'
       document.getElementById('question-container').style.display = 'none'
 
       document.getElementById('results-container').style.display = 'flex'

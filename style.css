@@ -65,7 +65,7 @@ figure p {
   align-items: center;
   border: 5px solid #FF64A1;
   border-radius: 10px;
-  box-shadow: 4px 4px #DBD7DB;
+  box-shadow: 4px 4px #FF9AC8;
 }
 
 #optionA img {
@@ -82,7 +82,7 @@ figure p {
   align-items: center;
   border: 5px solid #FF64A1;
   border-radius: 10px;
-  box-shadow: 4px 4px #DBD7DB;
+  box-shadow: 4px 4px #FF9AC8;
 }
 
 #optionB img {
@@ -108,7 +108,7 @@ figure p {
   border-radius: 10px;
   padding: 0px;
   padding-bottom: 1.5rem;
-  box-shadow: 4px 4px #DBD7DB;
+  box-shadow: 4px 4px #FF9AC8;
 }
 
 #results-list img {
@@ -127,7 +127,6 @@ figure p {
 /* RETRY BUTTON */
 #retry {
   background-color: #FF64A1;
-  /* border: 4px solid #FF64A1; */
   border-radius: 10px;
   box-shadow: 3px 3px #DBD7DB;
   padding: 5px 10px;
@@ -206,7 +205,6 @@ footer a:hover {
   /* RETRY BUTTON */
   #retry {
     background-color: #ffffff;
-    /* border: 4px solid #FF64A1; */
     border-radius: none;
     box-shadow: none;
     padding: none;
