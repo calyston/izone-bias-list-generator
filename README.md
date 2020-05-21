@@ -4,12 +4,15 @@ The IZ*ONE Bias List Generator is a responsive list generator based on user inpu
 
 ![](.gif)
 
+This project was inspired by existing K-Pop bias sorters on tumblr.
+
 ## Technologies Used
 
 HTML, CSS, JavaScript, GIT, Bash.
 
 ## Personal Learnings
 
+This was my first experience with a binary insertion sorter and using a switch case statement in JavaScript. I made this project in order to develop my JavaScript skills and become more comfortable with manipulating what displays on a web page.
 
 ## Installation Instructions
 
