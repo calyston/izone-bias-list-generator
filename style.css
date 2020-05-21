@@ -65,6 +65,7 @@ figure p {
   align-items: center;
   border: 5px solid #FF64A1;
   border-radius: 10px;
+  box-shadow: 4px 4px #DBD7DB;
 }
 
 #optionA img {
@@ -81,6 +82,7 @@ figure p {
   align-items: center;
   border: 5px solid #FF64A1;
   border-radius: 10px;
+  box-shadow: 4px 4px #DBD7DB;
 }
 
 #optionB img {
@@ -106,6 +108,7 @@ figure p {
   border-radius: 10px;
   padding: 0px;
   padding-bottom: 1.5rem;
+  box-shadow: 4px 4px #DBD7DB;
 }
 
 #results-list img {
