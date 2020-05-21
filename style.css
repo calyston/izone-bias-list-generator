@@ -89,13 +89,13 @@ figure p {
   border-top-right-radius: 5px;
 }
 
+
+/* RESULTS */
 #results-container {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
-
 
 #results-list {
   width: 250px;
@@ -119,8 +119,13 @@ figure p {
   margin-left: 4.5rem;
 }
 
+
+/* RETRY BUTTON */
 #retry {
   color: black;
+  border: 4px solid #FF64A1;
+  border-radius: 10px;
+  padding: 5px 10px;
 }
 
 #retry a:link {
@@ -135,6 +140,7 @@ figure p {
 #retry a:hover {
   color: #FF64A1;
 }
+
 
 /* FOOTER */
 footer {
@@ -175,6 +181,8 @@ footer a:hover {
   color: #FF64A1;
 }
 
+
+/* TABLET VIEW */
 @media screen and (min-width: 600px) {
   
   #question-container {
@@ -186,7 +194,16 @@ footer a:hover {
 
 }
 
+
+/* DESKTOP VIEW */
 @media screen and (min-width: 1240px) {
+  /* RETRY BUTTON */
+  #retry {
+    color: black;
+    border: none;
+    border-radius: 10px;
+    padding: 0px;
+  }
     /* FOOTER */
     footer a:link {
       text-decoration: none;
