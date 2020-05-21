@@ -59,7 +59,7 @@ figure p {
 }
 
 #optionA {
-  width: 250px;
+  width: 200px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -69,14 +69,14 @@ figure p {
 }
 
 #optionA img {
-  width: 250px;
+  width: 200px;
   height: auto;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
 
 #optionB {
-  width: 250px;
+  width: 200px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -86,7 +86,7 @@ figure p {
 }
 
 #optionB img {
-  width: 250px;
+  width: 200px;
   height: auto;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
@@ -203,6 +203,21 @@ footer a:hover {
     justify-content: center;
   }
 
+  #optionA {
+    width: 250px;
+  }
+  
+  #optionA img {
+    width: 250px;
+  }
+  
+  #optionB {
+    width: 250px;
+  }
+  
+  #optionB img {
+    width: 250px;
+  }
 }
 
 
