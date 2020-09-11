@@ -66,6 +66,7 @@ figure p {
   border: 5px solid #FF64A1;
   border-radius: 10px;
   box-shadow: 4px 4px #FF9AC8;
+  cursor: pointer;
 }
 
 #optionA img {
@@ -83,6 +84,7 @@ figure p {
   border: 5px solid #FF64A1;
   border-radius: 10px;
   box-shadow: 4px 4px #FF9AC8;
+  cursor: pointer;
 }
 
 #optionB img {
