@@ -3,7 +3,7 @@
 The IZONE Bias List Generator is a responsive list generator based on user input. Each member of IZONE, a popular South Korean-Japanese girl group, will be placed head-to-head for the user to select one option of the two, the results being placed in a list which is displayed upon completion.
 
 
-![](tablet-screenshot350.png) ![](IzoneTabletGif350.gif)
+![](tablet-screenshot350.png) ![](IzoneTabletGif.gif)
 
 This project was inspired by existing K-Pop bias sorters on tumblr.
 
