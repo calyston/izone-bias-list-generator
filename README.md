@@ -4,7 +4,7 @@ The IZONE Bias List Generator is a responsive list generator based on user input
 
 ### Live Preview: 
 
-https://calyston-listgenerator.netlify.app/
+https://calyston-izonelistgenerator.netlify.app/
 
 ### Screenshot:
 
