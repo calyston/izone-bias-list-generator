@@ -18,7 +18,7 @@ This project was inspired by existing K-Pop bias sorters on tumblr.
 
 ## Technologies Used
 
-HTML, CSS, JavaScript, GIT, Bash.
+![HTML5](https://img.shields.io/badge/-HTML5-orange) ![CSS3](https://img.shields.io/badge/-CSS3-blue) ![JavaScript](https://img.shields.io/badge/-JavaScript-yellow) ![GIT](https://img.shields.io/badge/-GIT-lightgrey) ![Bash](https://img.shields.io/badge/-Bash-lightgrey)
 
 ## Personal Learnings
 
